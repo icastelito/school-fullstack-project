@@ -14,10 +14,7 @@ npm run dev
 Django
 React
 Docker
-Funcionalidades
-Cadastro de escolas
-Cadastro de alunos
-Cadastro de professores
-Listagem de escolas
-Listagem de alunos
-Listagem de professores
+
+
+### Funcionalidades
+Cadastro e listagem de alunos, cursos e matricula
