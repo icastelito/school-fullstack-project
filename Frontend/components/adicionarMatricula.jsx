@@ -43,7 +43,8 @@ function AdicionarMatricula() {
   }
 
   return (
-    <Form onSubmit={handleSubmit}>
+    <div className="container">
+    <Form onSubmit={handleSubmit} className="form-group">
       <Form.Group controlId="formPeriodo">
         <Form.Label>Periodo</Form.Label>
         <Form.Control
@@ -95,6 +96,7 @@ function AdicionarMatricula() {
         Adicionar Matrícula
       </Button>
     </Form>
+    </div>
   );
 }
 

@@ -8,7 +8,7 @@ import ListarCursos from "../components/listarCursos";
 import MyApp from "./_app";
 import ListarAlunosPorCurso from "../components/listarMatriculas";
 import AdicionarMatricula from "../components/adicionarMatricula";
-import EditarMatriculas from "../components/editarMatricula";
+import EditarMatricula from "../components/editarMatricula";
 
 function HomePage() {
   const [activeTab, setActiveTab] = useState("tab1");
@@ -107,7 +107,7 @@ function HomePage() {
                     <Tab eventKey="innerTab3" title="Editar">
                       {activeInnerTab === "innerTab3" && (
                         <div className="inner-tab-content">
-                          {<EditarMatriculas />}
+                          {<EditarMatricula />}
                         </div>
                       )}
                     </Tab>
